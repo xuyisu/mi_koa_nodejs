@@ -1,0 +1,72 @@
+# Node.js
+# node_modules/ - 忽略 node_modules 目录，因为它包含所有已安装的依赖项
+node_modules/
+
+# 忽略 npm-debug.log 文件，这是 npm 调试日志文件
+npm-debug.log*
+
+# 忽略 yarn 相关的日志和锁文件
+yarn-error.log
+.yarn-integrity
+.yarn-metadata.json
+yarn.lock
+
+# 忽略环境变量配置文件
+.env
+.env.*
+
+# 忽略本地开发构建产物
+build/
+dist/
+out/
+
+# 忽略操作系统特定的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 IDE 或编辑器生成的文件和目录
+# 例如 Visual Studio Code
+.vscode/
+*.code-workspace
+
+# 例如 WebStorm
+.idea/
+*.iml
+
+# 例如 Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# 例如 Atom
+.atom/
+
+# 例如 JetBrains 系列
+*.iws
+
+# 忽略 npm 或 yarn 缓存
+.npm/
+.yarn/
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+*.pid
+*.seed
+*.sqlite3
+
+# 忽略测试报告
+coverage/
+reports/
+test-results/
+
+# 忽略 npm 打包时的临时文件
+*.tgz
+
+# 忽略操作系统特定的包管理器文件
+# 例如 macOS 的 Homebrew
+brewfile
+Brewfile
+
+# 忽略 Lerna 相关的文件和目录
+lerna-debug.log
+packages/*/node_modules/
